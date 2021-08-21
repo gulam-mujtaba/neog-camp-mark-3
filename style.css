@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap");
+
+body {
+  font-family: "Asap", sans-serif;
+}
+
+:root {
+  --primary-color: #10b981;
+}
+
+.list-item {
+  display: inline;
+  padding: 0.5rem;
+}
+.main-nav-bar {
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+
+.non-bullet-list {
+  text-align: right;
+  padding-top: 0.1rem;
+  padding-inline-start: 0;
+}
+
+.nav-heading {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navigation-bar .link {
+  color: white;
+}
+
+.hero-img {
+  max-width: 50%;
+  position: relative;
+  height: auto;
+  padding: 3rem;
+}
+
+.heading {
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+
+.web-dev {
+  color: var(--primary-color);
+}
+
+.section-1 {
+  text-align: center;
+  background-color: ghostwhite;
+  padding: 0.6rem;
+}
+
+.section-2 {
+  text-align: center;
+  background-color: ghostwhite;
+  padding: 0.6rem;
+}
+
+.colored-link {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  display: inline;
+}
+.section-3 {
+  text-align: center;
+  background-color: ghostwhite;
+  padding: 0.6rem;
+}
+
+.non-colored-link {
+  border: 0.2px solid;
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.paragraph {
+  padding-bottom: 0.5rem;
+}
+
+.sections {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 2rem;
+  padding: 0.5rem;
+}
+
+.non-bullet-list-bottom {
+  text-align: center;
+  margin: auto;
+  padding-inline-start: 0;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 1.5rem 0;
+  border-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.connect {
+  text-align: center;
+  color: rgb(8, 8, 8);
+}
