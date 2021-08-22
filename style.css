@@ -2,51 +2,60 @@
 
 body {
   font-family: "Asap", sans-serif;
+  padding: 0 40px 0 40px;
 }
 
 :root {
-  --primary-color: #10b981;
+  --primary-color: #1091b9;
 }
 
 .list-item {
-  display: inline;
-  padding: 0.5rem;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  padding-inline: 15px;
 }
 .main-nav-bar {
+  display: block;
   background-color: var(--primary-color);
-  padding: 0.5rem;
   color: rgb(255, 255, 255);
-  border-radius: 1rem;
-}
-
-.non-bullet-list {
+  border-radius: 1.3rem;
   text-align: right;
-  padding-top: 0.1rem;
-  padding-inline-start: 0;
+  padding: 10px;
+}
+.link {
+  text-align: right;
+  color: white;
+  text-decoration: #1091b9;
+}
+a:hover {
+  color: #aee4f5;
 }
 
 .nav-heading {
   font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  font-size: larger;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
 }
-
-.link {
-  text-decoration: none;
-}
-
-.navigation-bar .link {
-  color: white;
+.list-item {
+  text-decoration: whitesmoke;
+  display: inline;
 }
 
 .hero-img {
-  max-width: 50%;
-  position: relative;
-  height: auto;
-  padding: 3rem;
+  width: 35%;
+  margin: auto;
+  display: block;
+  padding: 20px;
 }
 
 .heading {
   text-align: center;
-  margin: auto;
+  margin: 15px;
   font-weight: bold;
 }
 
@@ -57,32 +66,36 @@ body {
 .section-1 {
   text-align: center;
   background-color: ghostwhite;
-  padding: 0.6rem;
+  padding: 20px;
+  border-radius: 1.5rem;
 }
 
 .section-2 {
   text-align: center;
-  background-color: ghostwhite;
-  padding: 0.6rem;
+  background-color: white;
+  padding: 20px;
+  border-radius: 1.5rem;
 }
 
 .colored-link {
   text-decoration: none;
   color: white;
   background-color: var(--primary-color);
-  padding: 0.7rem;
+  padding: 0.6rem;
   border-radius: 1.5rem;
   display: inline;
 }
 .section-3 {
   text-align: center;
   background-color: ghostwhite;
-  padding: 0.6rem;
+  padding: 20px;
+  border-radius: 1.5rem;
 }
 
 .non-colored-link {
-  border: 0.2px solid;
-  padding: 0.7rem;
+  border: 1px solid;
+  border-width: 1.5px;
+  padding: 0.6rem;
   border-radius: 1.5rem;
   text-decoration: none;
   border-color: var(--primary-color);
@@ -107,20 +120,56 @@ body {
 .non-bullet-list-bottom {
   text-align: center;
   margin: auto;
-  padding-inline-start: 0;
+  padding: 10px;
 }
 
 .footer {
   background-color: var(--primary-color);
-  padding: 1.5rem 0;
-  border-radius: 1rem;
+  padding: 15px;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
 .footer .link {
   color: white;
+  text-decoration: black;
+  padding: 10px;
+  padding-block: 10px;
 }
 
 .connect {
   text-align: center;
   color: rgb(8, 8, 8);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.projects-heading {
+  text-align: center;
+}
+
+.project-1-des {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.project-2-des {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project-1 {
+  padding-bottom: 3rem;
+}
+.content {
+  max-width: 90%;
+  margin: auto;
+  padding: 0.4rem;
+  text-align: left;
+}
+.blogs {
+  padding-block: 0 20px 30px 20px;
+}
+.fpc {
+  font-weight: lighter;
 }
