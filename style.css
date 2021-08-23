@@ -2,7 +2,8 @@
 
 body {
   font-family: "Asap", sans-serif;
-  padding: 0 40px 0 40px;
+  margin: 5px 60px 5px 60px;
+  min-width: 480px;
 }
 
 :root {
@@ -10,10 +11,12 @@ body {
 }
 
 .list-item {
-  display: inline-block;
+  display: inline;
   padding-top: 0px;
   padding-bottom: 15px;
   padding-inline: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .main-nav-bar {
   display: block;
