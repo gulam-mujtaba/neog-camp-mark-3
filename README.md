@@ -1,5 +1,5 @@
 # neog-camp-mark-3
-This is My Portfolip Website.
+This is My Portfolio Website.
 
 It has 3 pages
 
