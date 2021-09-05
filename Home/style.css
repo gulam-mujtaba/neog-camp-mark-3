@@ -2,21 +2,21 @@
 
 body {
   font-family: "Asap", sans-serif;
-  margin: 5px 60px 5px 60px;
-  min-width: 480px;
+  margin: 5px 50px 0 50px;
+  min-width: 375px;
 }
 
 :root {
   --primary-color: #1091b9;
 }
-
+header {
+  text-align: center;
+}
 .list-item {
-  display: inline;
-  padding-top: 0px;
+  display: auto;
+  align-items: center;
   padding-bottom: 15px;
-  padding-inline: 15px;
-  display: flex;
-  flex-direction: column;
+  padding-inline: 10px;
 }
 .main-nav-bar {
   display: block;
@@ -25,16 +25,21 @@ body {
   border-radius: 1.3rem;
   text-align: right;
   padding: 10px;
+  box-shadow: 0 12px 16px 0 rgba(44, 57, 77, 0.116),
+    0 17px 50px 0 rgba(44, 57, 77, 0.116);
 }
 .link {
   text-align: right;
   color: white;
   text-decoration: #1091b9;
 }
-a:hover {
-  color: #aee4f5;
-}
 
+.link:hover {
+  color: #0000008c;
+}
+a:hover {
+  color: #aef4ff;
+}
 .nav-heading {
   font-weight: bold;
   font-style: italic;
@@ -68,7 +73,7 @@ a:hover {
 
 .section-1 {
   text-align: center;
-  background-color: ghostwhite;
+  background-color: #85a9b43a;
   padding: 20px;
   border-radius: 1.5rem;
 }
@@ -76,7 +81,7 @@ a:hover {
 .section-2 {
   text-align: center;
   background-color: white;
-  padding: 20px;
+  padding: 25px;
   border-radius: 1.5rem;
 }
 
@@ -90,8 +95,9 @@ a:hover {
 }
 .section-3 {
   text-align: center;
-  background-color: ghostwhite;
-  padding: 20px;
+  background-color: #85a9b43a;
+  padding: 25px;
+  margin: 0 auto;
   border-radius: 1.5rem;
 }
 
@@ -104,7 +110,9 @@ a:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
-
+.non-colored-link:hover {
+  color: #000000bd;
+}
 .paragraph {
   padding-bottom: 0.5rem;
 }
@@ -128,12 +136,14 @@ a:hover {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 15px;
-  border-radius: 0.5rem;
+  padding: 5px;
+  border-radius: 1.5rem 1.5rem 0 0;
   position: relative;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.144),
+    0 17px 50px 0 rgba(0, 0, 0, 0.205);
 }
 
-.footer .link {
+.footer.link {
   color: white;
   text-decoration: black;
   padding: 10px;
